@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "webext-grpc-web-diagnose",
+  "description": "webext-grpc-web-diagnose",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_title": "webext-grpc-web-diagnose",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "*://*.xtb.com/*"],
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+}
